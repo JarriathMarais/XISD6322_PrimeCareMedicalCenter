@@ -1,6 +1,0 @@
-com.example.primecare.test.app-core-1.7.0-0 C:\Users\Student\.gradle\caches\9.1.0\transforms\1ffc9bc15f908ae222e9215e538db2e0\workspace\transformed\core-1.7.0\res
-com.example.primecare.test.app-tracing-1.2.0-1 C:\Users\Student\.gradle\caches\9.1.0\transforms\e5efe4dd0ddd1a98339c93f40a9fed6d\workspace\transformed\tracing-1.2.0\res
-com.example.primecare.test.app-updated_navigation_xml-2 C:\Users\Student\Downloads\PrimeCare_Android_completed\PrimeCare_Android_completed\PrimeCare\app\build\generated\updated_navigation_xml\debugAndroidTest
-com.example.primecare.test.app-packageDebugAndroidTestResources-3 C:\Users\Student\Downloads\PrimeCare_Android_completed\PrimeCare_Android_completed\PrimeCare\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
-com.example.primecare.test.app-packageDebugAndroidTestResources-4 C:\Users\Student\Downloads\PrimeCare_Android_completed\PrimeCare_Android_completed\PrimeCare\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
-com.example.primecare.test.app-debugAndroidTest-5 C:\Users\Student\Downloads\PrimeCare_Android_completed\PrimeCare_Android_completed\PrimeCare\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
