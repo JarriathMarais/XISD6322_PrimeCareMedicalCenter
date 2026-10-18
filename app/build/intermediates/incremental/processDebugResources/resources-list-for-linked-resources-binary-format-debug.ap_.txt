@@ -1,0 +1,1 @@
+C:\Users\Student\Downloads\PrimeCare_Android_completed\PrimeCare_Android_completed\PrimeCare\app\build\intermediates\compiled_navigation_res\debug\compileDebugNavigationResources\navigation_nav_graph.xml.flat 

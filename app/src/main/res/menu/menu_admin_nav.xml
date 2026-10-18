@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adminDashboardFragment" android:icon="@drawable/ic_nav_home" android:title="Home" />
+    <item android:id="@+id/checkinFragment" android:icon="@drawable/ic_nav_checkin" android:title="Check-in" />
+    <item android:id="@+id/queueFragment" android:icon="@drawable/ic_nav_queue" android:title="Queue" />
+    <item android:id="@+id/assignDoctorFragment" android:icon="@drawable/ic_nav_assign" android:title="Assign" />
+    <item android:id="@+id/settingsFragment" android:icon="@drawable/ic_nav_settings" android:title="Settings" />
+</menu>

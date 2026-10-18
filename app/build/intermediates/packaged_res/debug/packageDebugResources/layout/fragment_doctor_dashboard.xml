@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pc_grey_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include android:id="@+id/topBar" layout="@layout/include_topbar_back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp"
+                android:text="Live from the clinic queue"
+                android:textColor="@color/pc_text_grey"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <include layout="@layout/item_stat_card" android:id="@+id/statAssignedPatients" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp" />
+                <include layout="@layout/item_stat_card" android:id="@+id/statWaitingPatients" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <include android:id="@+id/statCompletedToday" layout="@layout/item_stat_card" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginEnd="8dp" android:layout_weight="1" />
+                <include android:id="@+id/statFollowups" layout="@layout/item_stat_card" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="12dp" android:text="Quick actions" android:textColor="@color/pc_text_dark" android:textSize="16sp" android:textStyle="bold" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnStartConsultation" style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginBottom="10dp" android:text="Call Next Patient" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnRepeatRequests" style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginBottom="10dp" android:text="View Repeat Requests" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="My patient queue (tap to open)" android:textColor="@color/pc_text_dark" android:textSize="16sp" android:textStyle="bold" />
+            <TextView android:id="@+id/queueEmpty" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:text="No patients are waiting for you right now." android:textColor="@color/pc_text_grey" android:textSize="13sp" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/queueRecycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnSettings" style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="16dp" android:text="Settings" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnHelp" style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:text="Help" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnLogout" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="20dp" android:backgroundTint="@color/pc_red" android:text="Logout" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

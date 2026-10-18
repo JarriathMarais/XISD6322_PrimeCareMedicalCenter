@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="ConsultationLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/pc_text_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.PrimeCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pc_blue</item>
+        <item name="colorOnPrimary">@color/pc_white</item>
+
+        <item name="colorSecondary">@color/pc_blue_tint</item>
+        <item name="colorOnSecondary">@color/pc_blue_dark</item>
+
+        <item name="android:colorBackground">@color/pc_grey_bg</item>
+        <item name="colorSurface">@color/pc_white</item>
+        <item name="colorOnSurface">@color/pc_text_dark</item>
+
+        <item name="android:statusBarColor">@color/pc_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>
