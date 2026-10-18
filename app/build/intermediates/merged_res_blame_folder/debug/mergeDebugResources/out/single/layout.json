@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\include_topbar_back.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\include_topbar_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\item_assign_doctor.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\item_assign_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\item_stat_card.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\item_stat_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\activity_splash_magic.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\activity_splash_magic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_assign_doctor.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_assign_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_queue.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_queue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\item_checkin.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\item_checkin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_appointments_list.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_appointments_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_checkin.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_checkin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_prescription.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_prescription.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\item_queue.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\item_queue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_help.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\item_repeat_request.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\item_repeat_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.primecare.app-mergeDebugResources-56:/layout/fragment_login.xml",
+        "source": "com.example.primecare.app-main-59:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\item_appointment.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\item_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_register_walkin.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_register_walkin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_consultation.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_consultation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_doctor_dashboard.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_doctor_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_admin_dashboard.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_followup.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_followup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-mergeDebugResources-56:\\layout\\fragment_repeat_requests.xml",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.1.0\\com.example.primecare.app-main-59:\\layout\\fragment_repeat_requests.xml"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pc_grey_bg">
+
+    <include android:id="@+id/topBar" layout="@layout/include_topbar_back" />
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Queue Management" android:textColor="@color/pc_text_dark" android:textSize="20sp" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="20dp" android:text="Live view of patients waiting to be seen (updates every few seconds)" android:textColor="@color/pc_text_grey" android:textSize="13sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="Now Serving" android:textColor="@color/pc_text_dark" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/nowServingEmpty" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No patient is in consultation right now." android:textColor="@color/pc_text_grey" android:textSize="13sp" />
+            <com.google.android.material.card.MaterialCardView android:id="@+id/nowServingCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" app:cardCornerRadius="14dp" app:cardBackgroundColor="@color/pc_blue" app:cardElevation="0dp"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="18dp"><TextView android:id="@+id/nowServingNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/pc_white" android:textSize="22sp" android:textStyle="bold" /><LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp" android:orientation="vertical"><TextView android:id="@+id/nowServingName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/pc_white" android:textSize="15sp" android:textStyle="bold" /><TextView android:id="@+id/nowServingDoctor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/pc_blue_tint" android:textSize="12sp" /></LinearLayout></LinearLayout></com.google.android.material.card.MaterialCardView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="10dp" android:text="Waiting Queue" android:textColor="@color/pc_text_dark" android:textSize="15sp" android:textStyle="bold" />
+            <TextView android:id="@+id/waitingEmpty" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Nobody is waiting. Checked-in patients appear here." android:textColor="@color/pc_text_grey" android:textSize="13sp" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

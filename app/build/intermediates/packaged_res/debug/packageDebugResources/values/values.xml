@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pc_amber">#D97706</color>
+    <color name="pc_amber_bg">#FFFBEB</color>
+    <color name="pc_blue">#0F62C4</color>
+    <color name="pc_blue_dark">#0B4A94</color>
+    <color name="pc_blue_tint">#EAF2FC</color>
+    <color name="pc_border">#E3E8EF</color>
+    <color name="pc_green">#16A34A</color>
+    <color name="pc_green_bg">#ECFDF3</color>
+    <color name="pc_grey_bg">#F5F7FA</color>
+    <color name="pc_red">#DC2626</color>
+    <color name="pc_red_bg">#FEF2F2</color>
+    <color name="pc_text_dark">#1F2937</color>
+    <color name="pc_text_grey">#6B7280</color>
+    <color name="pc_white">#FFFFFF</color>
+    <string name="action_assign_doctor">Assign Doctor</string>
+    <string name="action_checkin">Patient Check-in</string>
+    <string name="action_queue">Queue Management</string>
+    <string name="action_register_walkin">Register Walk-in</string>
+    <string name="action_view_appointments">View Appointments</string>
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="app_name">PrimeCare Staff</string>
+    <string name="doctor_dashboard_title">Doctor Dashboard</string>
+    <string name="login_button">Log in</string>
+    <string name="login_email_hint">Email address</string>
+    <string name="login_not_connected">Login will connect to the server in Phase 3 — not wired yet.</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_subtitle">Sign in with your clinic account</string>
+    <string name="login_title">PrimeCare Staff Login</string>
+    <string name="not_yet_connected">Not yet connected to live data — coming in a later phase.</string>
+    <string name="placeholder_dash">—</string>
+    <string name="primecare">PrimeCare</string>
+    <string name="primecare_logo">PrimeCare Logo</string>
+    <string name="stat_assigned_patients">Assigned Patients</string>
+    <string name="stat_available_doctors">Available Doctors</string>
+    <string name="stat_completed_today">Completed Today</string>
+    <string name="stat_followups">Follow-up Appointments</string>
+    <string name="stat_patients_waiting">Patients Waiting</string>
+    <string name="stat_todays_appointments">Today\'s Appointments</string>
+    <string name="stat_waiting_patients">Waiting Patients</string>
+    <string name="stat_walkins_today">Walk-ins Today</string>
+    <style name="ConsultationLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/pc_text_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.PrimeCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pc_blue</item>
+        <item name="colorOnPrimary">@color/pc_white</item>
+
+        <item name="colorSecondary">@color/pc_blue_tint</item>
+        <item name="colorOnSecondary">@color/pc_blue_dark</item>
+
+        <item name="android:colorBackground">@color/pc_grey_bg</item>
+        <item name="colorSurface">@color/pc_white</item>
+        <item name="colorOnSurface">@color/pc_text_dark</item>
+
+        <item name="android:statusBarColor">@color/pc_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
