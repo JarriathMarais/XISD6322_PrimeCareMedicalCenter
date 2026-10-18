@@ -1,14 +1,15 @@
 name: Android CI
 
-# Runs on every push and pull request: unit tests, then a debug build.
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test-and-build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out code
         uses: actions/checkout@v4
@@ -17,10 +18,19 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
+          java-version: '17'
 
-      - name: Set up Gradle (with caching)
+      - name: Set up Gradle with caching
         uses: gradle/actions/setup-gradle@v4
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Verify Gradle wrapper
+        run: |
+          pwd
+          ls -la
+          ls -la gradle/wrapper
 
       - name: Make gradlew executable
         run: chmod +x ./gradlew
@@ -37,9 +47,11 @@ jobs:
         with:
           name: unit-test-report
           path: app/build/reports/tests/testDebugUnitTest/
+          if-no-files-found: warn
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
           name: primecare-debug-apk
           path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
