@@ -1,0 +1,49 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  - main
+
+pr:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - checkout: self
+
+  - task: JavaToolInstaller@0
+    displayName: 'Set up JDK 17'
+    inputs:
+      versionSpec: '17'
+      jdkArchitectureOption: 'x64'
+      jdkSourceOption: 'PreInstalled'
+
+  - script: chmod +x ./gradlew
+    displayName: 'Make Gradle executable'
+
+  - script: ./gradlew testDebugUnitTest --stacktrace
+    displayName: 'Run unit tests'
+    continueOnError: true
+
+  - script: ./gradlew assembleDebug --stacktrace
+    displayName: 'Build debug APK'
+
+  - task: PublishTestResults@2
+    displayName: 'Publish unit test results'
+    condition: always()
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/build/test-results/testDebugUnitTest/*.xml'
+      failTaskOnFailedTests: false
+      failTaskOnMissingResultsFile: false
+
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish debug APK'
+    inputs:
+      targetPath: '$(Build.SourcesDirectory)/app/build/outputs/apk/debug'
+      artifact: 'primecare-debug-apk'
+      publishLocation: 'pipeline'
