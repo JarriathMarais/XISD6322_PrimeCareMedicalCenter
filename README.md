@@ -134,9 +134,10 @@ The system requirements include authentication, role-based access control, prote
 
 The project plan includes testing website navigation, forms, authentication, database interactions, appointment functions and role restrictions. Planned deliverables include a deployed website, Android APK, test documentation and user manual.<br>
 <br>
-**Website URL:** Add the deployed website link here.<br>
-**Android APK:** Add the release or download link here.<br>
+**Website URL:** Website is a downloadable file in repository.<br>
+**Android APK:** APK is a downloadable file in repository.<br>
 **GitHub repository:** (https://github.com/Tshegofatsoo/primecare-project)<br>
+**Azure DevOps Repository:** (https://dev.azure.com/ST10457058/_git/Prime%20Care%20Medical%20Center)</br>
 <br>
 **Running the Website Locally**
 The website currently uses PHP and MySQL and can be run using a local WAMP Server environment.<br>
